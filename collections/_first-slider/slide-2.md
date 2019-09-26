@@ -1,6 +1,6 @@
 ---
 title: Slide 2
-image: graphic-example.png
+image: graphic-example2.png
 ---
 
 # ESTE ES EL SEGUNDO SLIDE
