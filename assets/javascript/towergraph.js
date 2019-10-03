@@ -1320,6 +1320,11 @@ function setupFullPage() {
     },
     afterLoad: function(anchorLink, index) {
       $(`.slide-${index}`).addClass('slide-active');
+    },
+    afterRender: function(){
+        window.load = function () {
+          $('#page-loader').fadeOut(500);
+        }();
     }
 });
 
