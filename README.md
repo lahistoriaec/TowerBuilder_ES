@@ -69,13 +69,13 @@ En inglés: <https://towerbuilder.projectpoder.org/>
 
 Tower Builder cuenta con versiones que pueden insertarse mediante un iframe en otros sitios web: 
 
-<https://towerbuilder.projectpoder.org/?iframe>.
+<https://es.towerbuilder.projectpoder.org/?iframe>.
 
 Iframes para la visualización y el slider:
 
-<https://towerbuilder.projectpoder.org/iframe-visualization/>
+<https://es.towerbuilder.projectpoder.org/iframe-visualization/>
 
-<https://towerbuilder.projectpoder.org/iframe-slider/>
+<https://es.towerbuilder.projectpoder.org/iframe-slider/>
 
 ### Documentación
 
