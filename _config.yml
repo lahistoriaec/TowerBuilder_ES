@@ -50,6 +50,10 @@ graph:
           - toCenter: '#706F74'
           - toContractType: '#706F74'
           - toOrganization: '#706F74'
+
+# Customize the More information menu button title
+menu_button_title: Más información
+
 # Build settings
 plugins:
   - jekyll-feed
