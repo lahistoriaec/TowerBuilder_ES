@@ -30,7 +30,8 @@ function initSearch() {
                 title: "Monto Total",
                 data: "contracts_amount",
                 type: "num",
-                render: function(data, type, row, meta) { return data.toFixed(2) },
+                // render: function(data, type, row, meta) { return data.toFixed(2) },
+                render: $.fn.dataTable.render.number( ',', '.', 2, '$' ),
                 searchable: "false"
             }
         ],
