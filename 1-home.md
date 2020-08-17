@@ -11,7 +11,7 @@ Este no será otro párrafo, se unirá a la línea de arriba.
 
 Este será otro párrafo, ya que tiene una línea en blanco arriba.
 
-[Versión web](https://es.towerbuilder.projectpoder.org/)
-[Versión web para iframe](https://es.towerbuilder.projectpoder.org/?iframe)
-[Iframe de Visualización](https://es.towerbuilder.projectpoder.org/iframe-visualization/)
-[Iframe del Slider](https://es.towerbuilder.projectpoder.org/iframe-slider/)
+[Versión web](https://es.towerbuilder.poderlatam.org/)
+[Versión web para iframe](https://es.towerbuilder.poderlatam.org/?iframe)
+[Iframe de Visualización](https://es.towerbuilder.poderlatam.org/iframe-visualization/)
+[Iframe del Slider](https://es.towerbuilder.poderlatam.org/iframe-slider/)
