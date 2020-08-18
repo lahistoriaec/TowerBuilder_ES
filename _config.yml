@@ -22,6 +22,7 @@ image: tb-logo.png
 description: >-
   TowerBuilder is a system to generate websites with data visualizations that mix open contracting and beneficial ownership data, all without requiring programming knowledge.
 
+
 # URL of your contracts file or API endpoint
 contracts_url: "/assets/data/contracts.json"
 
@@ -103,3 +104,6 @@ collections:
 # Set to false to hide excerpts on the posts page
 show_excerpts: true
 future: true
+
+# Set the date in the posts and post page (en/es).
+date-language: "es"
