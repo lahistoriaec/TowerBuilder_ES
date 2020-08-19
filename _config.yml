@@ -1,38 +1,39 @@
-# Welcome to Jekyll!
+# ¡Bienvenido a Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
+# Este archivo de configuración está destinado a configuraciones que afectan a todo tu blog, valores
+# que se espera que configures una vez y rara vez edites después de eso. Si te encuentras
+# editando este archivo con mucha frecuencia, considera usar los archivos de datos de Jekyll
+# para los datos que necesita actualizar con frecuencia.
 #
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Por razones técnicas, este archivo * NO * se recarga automáticamente cuando usas
+# 'bundle exec jekyll serve'. Si cambias este archivo, reinicia el proceso del servidor.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Configuración del sitio
+# Esto se utiliza para personalizar tu nuevo sitio. Si miras en los archivos HTML,
+# Verás que se accede a ellos a través de {{site.title}}, {{site.email}}, etc.
+# Puedes crear cualquier variable personalizada que desees y será accesible
+# en las plantillas a través de {{site.myvariable}}.
+
 title: Tower Builder
 
-# Logo image
+# Imagen del logo
 image: tb-logo.png
 
-#Description of your site
+#Descripción de tu sitio
 description: >-
   TowerBuilder is a system to generate websites with data visualizations that mix open contracting and beneficial ownership data, all without requiring programming knowledge.
 
 
-# URL of your contracts file or API endpoint
+# URL del archivo de contratos o del endpoint de tu API
 contracts_url: "/assets/data/contracts.json"
 
-# URL of your beneficial ownership file or API endpoint
+# URL del archivo de beneficial ownership o del endpoint de tu API
 bods_url: ""
 
 graph:
-  # The name of your graphic
+  # EL nombre de tu gráfico
   - title: "Nombre del gráfico"
-  # los tamaños minimos y maximos de los nodos (en pixeles, aproximativo)
+  # los tamaños minimos y maximos de los nodos (en pixeles, aproximado)
   - sizes:
     - min: 10
     - max: 300
@@ -52,10 +53,11 @@ graph:
           - toContractType: '#706F74'
           - toOrganization: '#706F74'
 
-# Customize the More information menu button title
+# Personaliza el título del botón del menú Más información
 menu_button_title: Más información
 
-# Customize the titles and placeholder inputs in Contracts page
+# Personaliza los títulos y placeholders de los inputs
+# en el Buscador de contratos
 contracts_title: Contratos por empresas
 search_title: Búsqueda
 search_placeholder: Introduce palabra clave a buscar
@@ -73,7 +75,7 @@ date_range_from_placeholder: Desde
 date_range_to_placeholder: hasta
 date_range_title_tooltip: Encuentra los contratos activos entre dos fechas.
 filter_footnote_title: Los filtros aplican sobre los contratos que tienen las empresas.
-# Customize the Contract table titles
+# Personaliza los títulos de la tabla
 column_1: Empresas 
 column_2: Cant. de contratos
 column_3: Monto total
@@ -83,9 +85,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
+# Excluir del procesamiento.
+# Los siguientes elementos no se procesarán de forma predeterminada. 
+# Crea una lista personalizada para anular la configuración predeterminada.
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -93,7 +95,7 @@ exclude:
   - vendor/
   - docs/
 
-# Collections
+# Colecciones
 collections_dir: collections
 collections:
   first-slider:
@@ -101,9 +103,13 @@ collections:
   visualization-slider:
     output: true
 
-# Set to false to hide excerpts on the posts page
+# Cambia a false para ocultar extractos en la página de publicaciones.
 show_excerpts: true
 future: true
 
-# Set the date in the posts and post page (en/es).
+# Configura el lenguaje de las fechas en las páginas de publicaciones (es/en).
 date-language: "es"
+
+# Configura el formato de las fechas en las páginas de publicaciones.
+# Otros formatos: "%a, %b %d, %y" | "%Y" | "%b %d, %y" | "%Y-%m-%d %H:%M"
+date-format: "%B %-d, %Y"
