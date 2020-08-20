@@ -52,7 +52,8 @@ graph:
           - toCenter: '#706F74'
           - toContractType: '#706F74'
           - toOrganization: '#706F74'
-
+  - descriptionLink: "Ir al perfil"
+  
 # Personaliza el título del botón del menú Más información
 menu_button_title: Más información
 
