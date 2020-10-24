@@ -14,14 +14,14 @@
 # Puedes crear cualquier variable personalizada que desees y será accesible
 # en las plantillas a través de {{site.myvariable}}.
 
-title: Tower Builder
+title: "Proyecto Transparencia"
 
 # Imagen del logo
 image: tb-logo.png
 
 #Descripción de tu sitio
 description: >-
-  TowerBuilder is a system to generate websites with data visualizations that mix open contracting and beneficial ownership data, all without requiring programming knowledge.
+  "Proyecto Transparencia es una iniciativa del portal La Historia para transparentar la contratación pública durante la pandemia de COVID19 son el apoyo de la ciudadanía empoderada."
 
 
 # URL del archivo de contratos o del endpoint de tu API
